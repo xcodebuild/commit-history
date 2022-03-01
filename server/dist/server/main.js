@@ -51,7 +51,7 @@ var utils_1 = require("./utils");
 var token_1 = require("./token");
 var const_1 = require("./const");
 var startServer = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var app, router;
+    var app, router, port;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, (0, token_1.initTokenFromEnv)()];
@@ -165,8 +165,9 @@ var startServer = function () { return __awaiter(void 0, void 0, void 0, functio
                     logger_1.default.error("server error: ", err);
                 });
                 app.use(router.routes()).use(router.allowedMethods());
-                app.listen(8080, function () {
-                    logger_1.default.info("server running on port ".concat(8080));
+                port = process.env.PORT || 8080;
+                app.listen(port, function () {
+                    logger_1.default.info("server running on port ".concat(port));
                 });
                 return [2 /*return*/];
         }

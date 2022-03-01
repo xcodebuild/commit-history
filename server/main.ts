@@ -146,8 +146,9 @@ const startServer = async () => {
 
   app.use(router.routes()).use(router.allowedMethods());
 
-  app.listen(8080, () => {
-    logger.info(`server running on port ${8080}`);
+  const port = process.env.PORT || 8080;
+  app.listen(port, () => {
+    logger.info(`server running on port ${port}`);
   });
 };
 
