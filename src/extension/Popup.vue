@@ -88,7 +88,7 @@
         style="font-family: 'xkcd', serif"
       >
         <img class="w-5 h-auto mr-1" src="/icon.png" />
-        commit-history.vercel.com
+        the-commit-history.vercel.app
       </span>
     </div>
   </div>
@@ -196,7 +196,7 @@ const handleSetTokenDialogClose = () => {
 
 const handleOpenInWebsiteBtnClick = () => {
   chrome.tabs.create({
-    url: `https://commit-history.vercel.com/#${state.repo}`,
+    url: `https://the-commit-history.vercel.app/#${state.repo}`,
   });
 };
 </script>

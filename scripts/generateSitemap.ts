@@ -42,7 +42,7 @@ const generateSitemap = async () => {
   const routes = [...staticRoutes];
   const blogRoutes = await getBlogsRoutes();
   routes.push(...blogRoutes);
-  const baseUrl = "https://commit-history.vercel.com";
+  const baseUrl = "https://the-commit-history.vercel.app";
 
   const routeXMLTags: string[] = [];
   for (const route of routes) {

@@ -14,7 +14,7 @@
       style="font-family: 'xkcd', serif"
     >
       <img class="w-5 h-auto mr-1" src="/icon.png" />
-      commit-history.vercel.com
+      the-commit-history.vercel.app
     </div>
   </div>
 </template>

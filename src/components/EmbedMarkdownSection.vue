@@ -52,7 +52,7 @@ const repoText = computed(() => {
 const embedCode = computed(() => {
   return `## Commit History
 
-[![Commit History Chart](https://api.commit-history.vercel.com/svg?repos=${store.repos.join(
+[![Commit History Chart](https://api.the-commit-history.vercel.app/svg?repos=${store.repos.join(
     ","
   )}&type=${store.chartMode})](${window.location.href})
 `;

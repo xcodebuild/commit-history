@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "npx ts-node main.ts",
-    "build": "tsc --project ./"
+    "build": "tsc --project ./ --noEmitOnError"
   },
+  "main": "dist/server/main.js",
   "dependencies": {
     "jsdom": "^19.0.0",
     "koa": "^2.13.4",

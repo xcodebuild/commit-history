@@ -274,7 +274,7 @@ const handleGenerateImageBtnClick = async () => {
     ctx.font = `${16 * scale}px xkcd`;
     ctx.fillStyle = "#6b7280";
     ctx.fillText(
-      "commit-history.vercel.com",
+      "the-commit-history.vercel.app",
       (clientWidth - 130) * scale,
       (clientHeight + 10) * scale
     );

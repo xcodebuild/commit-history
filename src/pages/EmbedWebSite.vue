@@ -51,7 +51,7 @@ const state = reactive<State>({
 });
 const containerElRef = ref<HTMLDivElement | null>(null);
 const starHistoryLink = computed(() => {
-  return `https://commit-history.vercel.com/#${state.repos.join("&")}&${
+  return `https://the-commit-history.vercel.app/#${state.repos.join("&")}&${
     state.chartMode
   }`;
 });
