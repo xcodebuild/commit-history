@@ -1,0 +1,19 @@
+{
+  "name": "Commit History",
+  "description": "A chrome extension showing commit history graph of current GitHub repository",
+  "homepage_url": "https://github.com/bytebase/star-history",
+  "author": "bytebase",
+  "version": "2.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "action": {
+    "default_popup": "./extension/popup.html"
+  },
+  "host_permissions": ["https://api.github.com/"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["activeTab"]
+}
