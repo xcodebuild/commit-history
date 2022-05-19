@@ -13,7 +13,7 @@
         </h1>
         <a
           class="h-full flex flex-row justify-center items-center mx-3 text-lg hover:opacity-80"
-          href="mailto:me@xcodebuild.com"
+          href="mailto:me@xuan.at"
           target="_blank"
         >
           <i class="fas fa-envelope"></i>
@@ -44,7 +44,7 @@
           built by
           <a
             class="bg-blue-400 text-white p-1 pl-2 pr-2 rounded-l-2xl rounded-r-2xl hover:opacity-80"
-            href="https://xcodebuild.com/"
+            href="https://xuan.at/"
             target="_blank"
           >
             @xcodebuild
