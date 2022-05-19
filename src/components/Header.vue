@@ -9,7 +9,7 @@
         <a
           class="h-full flex flex-row justify-center items-center px-4 hover:bg-zinc-800"
           target="_blank"
-          href="https://xcodebuild.com"
+          href="https://xuan.at"
         >
           <span class="text-light font-semibold">Blog</span>
         </a>
